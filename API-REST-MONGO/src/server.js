@@ -14,7 +14,7 @@ app.use(express.json());
 
 //Routes
 app.use(IndexRoutes);
-app.use('/tasks', TaskRouter ); 
+app.use('/api/tasks', TaskRouter ); 
 
 
 
